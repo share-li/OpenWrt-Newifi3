@@ -10,7 +10,7 @@ name: Typical Building
 
 on:
   repository_dispatch:
-    types: [minimum-build-success]
+    types: [build]
    push:
      branches:
        - master
